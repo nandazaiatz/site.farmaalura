@@ -1,97 +1,55 @@
-.cabecalho-imagem{
-    width: 20%;
-}.cabecalho {
-    background-color: #151c27;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
-}
-
-
 *{
     margin: 0;
     padding: 0;
 }
 
-
-.escola-imagem{
-    width: 25%;
-}.escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color: white;
-}.escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
+.cabeçalho{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
-}
+    padding: 10px 0;
+    }
 
+    .cabeçalho-imagem{
+width: 15%;
+    }
+ 
+    .cabeçalho-lista-item{
+        display: inline-block;
+        margin: 0 100px;
+        font-size: 100px;
+    }
+    .pet-shop-imagem{
+        width:100% ;
+    }
 
-.escola-div-conteudo{
-    width: 35%;
-}.escola-titulo{
-    padding: 24px 0;
-}
+    .pet-shop{
+        background-image: linear-gradient(#0650f0, #0d11f2);
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        font-size: 15px;
+    }
 
+    .pet-shop-div-conteudo{
+        width: 80%;
+    }
+    .pet-shop-titulo{
+        padding: 50px 0;
+    }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
+    .imagem-cliente{
+        width: 200px;
+    }
 
+    .imagem-cliente{
+        width: 120px;
+    }
 
-.estudante-imagem{
-    width: 120px;
-}
-
-
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
-}
-
-
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-}
-
-
-.estudante-todos{
-    display: grid;
-}.estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-}
-
-
-.estudante-titulo{
-    text-align: center;
-    padding: 24px 0;
-}
-
-
-.rodape{
-    background-color: black;
-    text-align: center;
-}
-
-
-.rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
-
-}
-
-
-.cabecalho-lista-item a{
-    text-decoration: none; 
-    color: white;
-}
+    .cliente-div{
+        align-items: center;
+    }
